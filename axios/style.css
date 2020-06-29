@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #BE93C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#container { 
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 300px auto;
+    padding: 30px;
+    background-color: darkcyan;
+    width: 90%;
+    align-items: center;
+    
+    height: 500px;
+
+}
+
+#header {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#axios {
+    letter-spacing: 14px;
+    font-size: 30px;
+    align-content: center;
+    margin-left: 14px;
+    
+}
+
+#cityTextInput {
+    line-height: 30px;
+    width: 100%;
+    font-size: large;
+
+}
+
+@media 
+
+#src-form {
+    width: 100%;
+
+}
+
+#resultText {
+    color: blue;
+}
+
+#src-btn {
+    line-height: 30px;
+    cursor: pointer;
+    font-size: large;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+

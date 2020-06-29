@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="file:///C:/Users/Gebruiker/Downloads/clouds.svg" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    <input type="text" id="cityTextInput">
-    <button>Click</button>
-    <h1></h1>
-    <h2></h2>
+    <div id="container">
+        <h1 id="header"><span id="axios">Axios</span><br>Weather App</h1> 
+
+        <div id="src-form">
+            <input placeholder="Enter location" type="text" id="cityTextInput">
+            <button id="src-btn">Search</button>
+        </div>
+        <h2 id="resultText"></h2>
+        <h2 id="description"></h2>
+    </div>
     <script src="app.js">
         
     </script>
