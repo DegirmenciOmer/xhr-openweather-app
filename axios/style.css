@@ -22,7 +22,7 @@ body {
     width: 90%;
     align-items: center;
     
-    height: 500px;
+    height: 600px;
 
 }
 
@@ -45,10 +45,16 @@ body {
     line-height: 30px;
     width: 100%;
     font-size: large;
+    transition: .6s;
 
 }
 
-@media 
+#cityTextInput:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
 
 #src-form {
     width: 100%;
@@ -65,6 +71,45 @@ body {
     font-size: large;
     width: 100%;
     margin-bottom: 20px;
+    transition: .8s;
+    
 
 }
 
+#src-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+@media (min-width: 480px) {	
+    #container {
+        width: 70%;
+    }
+    
+    
+	
+
+@media (min-width: 768px) {
+    #src-form {
+        width: 70%;
+    }
+
+    #header {
+        font-size: larger;
+    }
+}	
+
+@media (min-width: 992px) {
+    #src-form {
+        width: 50%;
+    }
+}	
+/*
+@media (min-width: 1200px) {
+	
+	#graynav a {
+		width: 23%
+	}		
+}
